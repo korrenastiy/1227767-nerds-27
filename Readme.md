@@ -1,7 +1,8 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Олег Кучер](https://up.htmlacademy.ru/htmlcss/27/user/1227767).
-* Наставник: `Неизвестно`.
+* Наставник: [Руслан Бреев] (https://htmlacademy.ru/profile/blckwltz)
+
 
 ---
 
