@@ -18,8 +18,12 @@
           <li><a href="contacts.html">Контакты</a></li>
 
         </ul>
+
+             
+
              <button type="button"><img src="img/cart-icon.svg" width="15" height="15"
              alt="Логотип Нердс">Корзина</button>
+
 
       </nav>
     </header>
@@ -108,11 +112,11 @@
               <ul>
                 <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/htmlacademy-logo.png" width="199" height="68"
                 alt="Академия"> </a></li>
-                <li><img src="img/borodinski-logo@3x.jpg" width="209" height="90"
+                <li><img src="img/borodinski-logo.jpg" width="209" height="90"
                 alt="Барбершоп"> </li>
-                <li><img src="img/pink-logo@3x.jpg" width="185" height="52"
+                <li><img src="img/pink-logo.jpg" width="185" height="52"
                 alt="Пинк"> </li>
-                <li><img src="img/mishka-logo@3x.jpg" width="173" height="84"
+                <li><img src="img/mishka-logo.jpg" width="173" height="84"
                 alt="Мишка"> </li>
               </ul>
             </section>
@@ -128,7 +132,24 @@
 
                     <p>тел. +7 (812) 275-75-75</p>
                       <button type="button">Напишите нам</button>
-                    <!-- Здесь будет форма -->
+                    <section>
+                      <h2>Напишите нам</h2>
+
+                              <form action="https://echo.htmlacademy.ru" method="post">
+                                <p>
+                                  <label for="user-login">Ваше имя:</label>
+                                  <input id="user-login" type="text" name="login" placeholder="Имя Фамилия">
+
+                                  <label for="user-email">Ваш e-mail:</label>
+                                  <input id="user-email" type="email" name="email" placeholder="email@example.com">
+                                </p>
+                                <label for="review">Текст письма:</label><br>
+                                <textarea id="review" name="review" rows="5" placeholder="В свободной форме"></textarea><br>
+                                <button type="submit">
+                                Отправить
+                                </button>
+                              </form>
+</section>
                   </section>
                 </main>
                     <footer>

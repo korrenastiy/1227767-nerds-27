@@ -31,53 +31,98 @@
 
     <section>
 
-      <!-- Здесь будет форма -->
     </section>
     <section>
+      <section>
+    <h2></h2>
 
-      <ul>
-        <h3>Сетка</h3>
-        <li><img src="img/radio-on.svg" width="25" height="25"
-        alt="Radio-on">Адаптивная</li>
-        <li><img src="img/radio-off.svg" width="25" height="25"
-        alt="Radio-off">Фиксированная</li>
-        <li><img src="img/radio-off.svg" width="25" height="25"
-        alt="Radio-off">Резиновая</li>
-        </ul>
+    <form method="get" action="https://echo.htmlacademy.ru" oninput="daysoutput.value=dayscount.value">
+
+
+    <fieldset>
+      <h2>Стоимость</h2>
+      <input type="range" id="dayscount" name="dayscount" min="0" max="15000" step="1"><br>
+      <label class="min-price">от <input name="min-price" type="number" value="0"></label>
+      <label class="max-price">до <input name="max-price" type="number" value="15000"></label>
+
+    </fieldset>
+
+      <fieldset>
+        <legend>Сетка:</legend>
         <ul>
-          <h3>Особенности</h3>
-          <li><img src="img/checkbox-on.svg" width="27" height="23"
-          alt="checkbox-on">Слайдер</li>
-          <li><img src="img/checkbox-off.svg" width="23" height="23"
-          alt="checkbox-off">Блок преимуществ</li>
-          <li><img src="img/checkbox-on.svg" width="27" height="23"
-          alt="checkbox-on">Новости</li>
-          <li><img src="img/checkbox-off.svg" width="23" height="23"
-          alt="checkbox-off">Галерея</li>
-          <li><img src="img/checkbox-off.svg" width="23" height="23"
-          alt="checkbox-off">Корзина</li>
-          </ul>
-
-    </section>
+          <li>
+            <input type="radio" name="product-group" id="filter1" value="a1" checked>
+            <label for="filter1"><img src="img/radio-on.svg" width="25" height="25"
+            alt="Radio-on">Адаптивная</label>
+          </li>
+          <li>
+            <input type="radio" name="product-group" id="filter2 value="a2">
+            <label for="filter-care">Фиксированная</label>
+          </li>
+          <li>
+            <input type="radio" name="product-group"  id="filter3 value="a3">
+            <label for="filter-accessories">Резиновая</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Особенности:</legend>
+        <ul>
+          <li>
+            <input type="checkbox" name="slider-news" id="filter-slider" value="fixed" checked>
+            <label for="filter-slider">Слайдер</label>
+          </li>
+          <li>
+            <input type="checkbox" name="advantages" id="filter-advantages" value="fixed">
+            <label for="filter-advantages">Блок преимуществ</label>
+          </li>
+          <li>
+            <input type="checkbox" name="slider-news" id="filter-news" value="unfixed" checked>
+            <label for="filter-news">Новости</label>
+          </li>
+          <li>
+            <input type="checkbox" name="gallery" id="filter-gallery" value="fixed">
+            <label for="filter-malin-goetz">Галерея</label>
+          </li>
+          <li>
+            <input type="checkbox" name="trash" id="filter-trash" value="fixed">
+            <label for="filter-trash">Корзина</label>
+          </li>
+        </ul>
+      </fieldset>
 
     <section>
       <a href="#"><img src="img/img-sedona-jpg.jpg" width="360" height="576"
       alt="sedona"></a>
 
-      <a href="#">  <img src="img/img-pink-jpg@3x.jpg" width="360" height="576"
-        alt="pink"></a>
 
-          <a href="#"><img src="img/img-barbershop-jpg@3x.jpg" width="360" height="576"
-          alt="barbershop"></a>
+      <button type="submit">Показать</button>
+    </form>
 
-            <a href="#"><img src="img/img-mishka-jpg@3x.jpg" width="360" height="576"
-            alt="mishka"></a>
 
-            <a href="#"> <img src="img/img-aplus-jpg@3x.jpg" width="360" height="576"
-              alt="aplus"></a>
 
-              <a href="#"> <img src="img/img-kvast-jpg@3x.jpg" width="360" height="576"
-                alt="kvast"></a>
+    </section>
+
+    <section>
+      <ul>
+      <li>
+        <a href="#"><img src="img/img-sedona-jpg.jpg" width="360" height="576"
+      alt="sedona"></a></li>
+<li>
+      <a href="#">  <img src="img/img-pink-jpg.jpg" width="360" height="576"
+        alt="pink"></a></li>
+<li>
+          <a href="#"><img src="img/img-barbershop-jpg.jpg" width="360" height="576"
+          alt="barbershop"></a></li>
+<li>
+            <a href="#"><img src="img/img-mishka-jpg.jpg" width="360" height="576"
+            alt="mishka"></a></li>
+<li>
+            <a href="#"> <img src="img/img-aplus-jpg.jpg" width="360" height="576"
+              alt="aplus"></a></li>
+<li>
+              <a href="#"> <img src="img/img-kvast-jpg.jpg" width="360" height="576"
+                alt="kvast"></a></li>
 
                 <ul>
                  <li><a>1</a></li>
