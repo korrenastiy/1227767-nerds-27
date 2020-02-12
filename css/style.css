@@ -52,8 +52,11 @@ height: 50px;}
 .top-color {
   background-color: #eeeeee;
 }
-a {
-  text-decoration: none;}
+.logo {
+  text-decoration: none;
+  width: 160px;
+  height: 65px;
+}
 
   .iphones {
     marging-left:571px;
@@ -65,8 +68,44 @@ a {
     line-height: 1.88;
     color: #000000;
     background-color: #eeeeee;
+    display: flex;
+    width:620px
+    flex-direction: column;
+    align-items: center;
+
+    /* Временно для сетки */
+    min-height: 545px;
   }
 
+  .main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+background-color:
+/* Временно для сетки */
+    min-height: 70px;
+}
+
+
+.navigation {
+
+  width: 140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* Временно для сетки */
+  min-height: 70px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-navigation-wrapper .container {
+  display: flex;
+}
+
+}
   .site-navigation {
     list-style: none;
   }
@@ -308,7 +347,9 @@ h2 {
   text-align: left;
 
 }
+/* ----- Сеточные стили ----- */
+.main-header {
+  margin-bottom: 80px;
 
-
-
-.
+  /* Временно для сетки */
+  min-height: 545px;
