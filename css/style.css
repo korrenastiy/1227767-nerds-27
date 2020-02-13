@@ -58,9 +58,26 @@ a {
   .iphones {
     dispaly:flex;
     min-height:431px;
-
-
   }
+
+.assets{
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: flex-end;
+margin-bottom: 170px;
+margin-top: 133px;
+margin-right:140px;
+
+}
+
+.formes {
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+
 
 .container{
   dispaly:flex;

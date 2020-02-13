@@ -10,26 +10,22 @@
     <title></title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <div class="top-color"
       <nav class="main-navigation">
-        <a>
+        <div class="logo"<a>
           <img src="img/nerds-logo.svg" width="160" height="65"
           alt="Логотип Нердс">
-        </a>
+        </a></div>
+
         <ul class="site-navigation">
           <li class="navigation"><a href="studio.html">Студия</a></li>
           <li class="navigation"><a href="clients.html">Клиенты</a></li>
           <li class="navigation"><a href="catalog.html">Магазин</a></li>
           <li class="navigation"><a href="contacts.html">Контакты</a></li>
-
+          <li class="navigation"><button type="button"><img src="img/cart-icon.svg" width="15" height="15"
+          alt="Логотип Нердс">Корзина</button></li>
         </ul>
-
-
-
-               <a href="#"><img src="img/cart-icon.svg" width="15" height="15"
-             alt="Логотип Нердс">Корзина</a>
-
 
       </nav>
 
@@ -45,9 +41,9 @@
         <section>
     <h2></h2>
 
-    <form method="get" action="https://echo.htmlacademy.ru" oninput="daysoutput.value=dayscount.value">
+    <form method="get" action="https://echo.htmlacademy.ru" oninput="daysoutput.value=dayscount.value" class="formes">
 
-
+<div class="price-form">
     <fieldset>
       <p class="price">Стоимость<p>
       <input type="range" id="dayscount" name="dayscount" min="0" max="15000" step="1"><br>
@@ -55,7 +51,7 @@
       <label class="max-price">до <input name="max-price" type="number" value="15000"></label>
 
     </fieldset>
-
+</div>
       <fieldset>
         <legend class="price">Сетка:</legend>
         <ul class="features-list">
@@ -102,7 +98,7 @@
                 <button type="submit" class="button5 grey-button">Показать</button>
     </form>
     <section>
-      <ul class="features-list">
+      <ul class="features-list assets">
       <li>
         <a href="#"><img src="img/img-sedona-jpg.jpg" width="360" height="576"
       alt="sedona"></a></li>
