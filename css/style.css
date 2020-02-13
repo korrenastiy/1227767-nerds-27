@@ -17,8 +17,8 @@ h1 {
   text-align: center;
   font-weight:normal;
 }
-.button
-{display: inline-block;
+.button{
+display: inline-block;
 width: 240px;
 height: 50px;}
 
@@ -34,8 +34,8 @@ height: 50px;}
   background-size:240px 50px;
   border: none;}
 
-  .button5
-  {display: inline-block;
+  .button5{
+  display: inline-block;
   width: 260px;
   height: 50px;}
 
@@ -55,10 +55,20 @@ height: 50px;}
 a {
   text-decoration: none;}
 
-  .iphones {
-    dispaly:flex;
-    min-height:431px;
+
   }
+
+.container{
+display: flex;
+flex-direction: column;
+
+}
+.iphones-container{
+  display: flex;
+  flex-direction: column;
+  margin:132px 171px 0 571px;
+
+}
 
 .assets{
 display:flex;
@@ -68,7 +78,6 @@ justify-content: flex-end;
 margin-bottom: 170px;
 margin-top: 133px;
 margin-right:140px;
-
 }
 
 .formes {
@@ -78,26 +87,19 @@ flex-wrap: wrap;
 }
 
 
-
-.container{
-  dispaly:flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .main-navigation {
+  display:flex;
     font-size: 16px;
     line-height: 1.88;
     color: #000000;
     background-color: #eeeeee;
-    width:1440px;
-    height:545px;
+
   }
 
 .main-header {
 display:flex;
-flex-direction:row;
-flex-wrap: wrap;
 background-color: #eeeeee;
+
 
 }
 .logo {
@@ -114,12 +116,13 @@ background-color: #eeeeee;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: 202px;
 
-      margin-left: auto;
+
   }
   .navigation {
-    margin-right: auto;
-    margin-left: auto;
+    margin:47px;
+    margin-top:83px;
   }
   .site-navigation a {
   color:#000000;}
