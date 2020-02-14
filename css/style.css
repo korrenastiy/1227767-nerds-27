@@ -9,6 +9,7 @@ body {
   color: #000000;
   text-transform: uppercase;
   background-color: #ffffff;
+
 }
 h1 {
   font-size: 55px;
@@ -49,26 +50,123 @@ height: 50px;}
 
   }
 
+
 .top-color {
   background-color: #eeeeee;
+
 }
 a {
   text-decoration: none;}
 
   .iphones {
+
+    display:flex;
+    min-height:431px;
+    justify-content: center;
+    margin-top: 18px;
+
+  }
+
+.assets{
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: flex-end;
+margin-bottom: 170px;
+margin-top: 133px;
+margin-right:140px;
+
+}
+
+.formes {
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+width:260px;
+}
+.price-form{
+  display: flex;
+  flex-direction: column;
+}
+.form-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  dispaly:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.iphones-container{
+  dispaly:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+=======
     marging-left:571px;
 
   }
+
 
 .main-navigation {
     font-size: 16px;
     line-height: 1.88;
     color: #000000;
     background-color: #eeeeee;
+
+    width:1440px;
+    display: flex;
+
+  }
+
+.main-header {
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+background-color: #eeeeee;
+height:545px;}
+
+.main-header-catalog {
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+background-color: #eeeeee;
+height:355px;}
+
+.nav-top{
+  display: flex;
+}
+.logo {
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 140px;
+  margin-top:49px;
+
+}
+
+  .site-navigation {
+    list-style: none;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 202px;
+    width:799px;
+    align-items:flex-end;
+  }
+  .navigation {
+    margin-right:47px;
+  }
+  .last-element {
+    margin-left: 245px;
+    margin-right: 140px;
+
   }
 
   .site-navigation {
     list-style: none;
+
   }
   .site-navigation a {
   color:#000000;}
@@ -77,6 +175,9 @@ a {
   .site-navigation a:focus  {
     color: #283136;
   }
+
+  a {text-decoration:none;}
+
 .intro {
   font-family: Roboto;
     font-size: 55px;
@@ -88,10 +189,13 @@ a {
     text-align: left;
     color: #000000;
     text-transform: none;
-    margin-left: 141px;
+
+
 }
+
 .intro-small {
   width: 361px;
+
 height: 40px;
 font-family: Roboto;
 font-size: 16px;
@@ -108,6 +212,28 @@ text-transform: none;
 
 .features-list{
   list-style: none;
+
+  display:flex;
+  flex-direction: row;
+justify-content: center;
+  margin-left: 140px;
+  margin-right:200px;
+  margin-top: 80px;
+}
+.features-list-catalog{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.shops{
+  margin-left: 100px;
+}
+
+
+
+
 }
 
 .left{
@@ -131,11 +257,15 @@ text-transform: none;
 }
 }
 
+
 .feature-item h3 {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
+
+
   margin: 0 auto;
+
 
 }
 .studio {
@@ -153,6 +283,24 @@ h3 {
   font-size: 16px;
   line-height: 24px;
   text-transform:uppercase;
+
+}
+
+.about {
+  width:650px;
+  display:flex;
+  flex-direction:column;
+  margin-top: 162px;
+  margin-left:141px;
+}
+.points{
+display:flex;
+flex-direction:column;
+margin-top: 162px;
+margin-left: 149px;
+
+
+}
 
 }
 
@@ -206,6 +354,10 @@ height: 50px;}
   font-weight: bold;
   font-size:45px;
   color:#000000;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-content: space-between;
 }
 .percent-items{
 font-size:16px;
@@ -230,6 +382,9 @@ height: 50px;}
   background-size:160px 50px;
   border: none;}
 
+.main-bottom{
+  display:flex;
+}
 
 .adress{
   font-size: 16px;
@@ -300,15 +455,17 @@ h2 {
   text-transform:uppercase;
   text-align: left;
 }
+.form-filter {
+  display: flex;
+  flex-direction: column;
+}
 .net {
   font-size: 16px;
   line-height: 20px;
   color: #283136;
   text-transform:none;
   text-align: left;
-
 }
-
-
-
-.
+.pictures-catalog {
+  display: flex;
+}
