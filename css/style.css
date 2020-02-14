@@ -50,11 +50,16 @@ height: 50px;}
 
   }
 
+
+.top-color {
+  background-color: #eeeeee;
+
 }
 a {
   text-decoration: none;}
 
   .iphones {
+
     display:flex;
     min-height:431px;
     justify-content: center;
@@ -98,11 +103,18 @@ width:260px;
   flex-direction: row;
   justify-content: center;
 }
+=======
+    marging-left:571px;
+
+  }
+
+
 .main-navigation {
     font-size: 16px;
     line-height: 1.88;
     color: #000000;
     background-color: #eeeeee;
+
     width:1440px;
     display: flex;
 
@@ -149,6 +161,12 @@ height:355px;}
   .last-element {
     margin-left: 245px;
     margin-right: 140px;
+
+  }
+
+  .site-navigation {
+    list-style: none;
+
   }
   .site-navigation a {
   color:#000000;}
@@ -157,7 +175,9 @@ height:355px;}
   .site-navigation a:focus  {
     color: #283136;
   }
+
   a {text-decoration:none;}
+
 .intro {
   font-family: Roboto;
     font-size: 55px;
@@ -170,9 +190,12 @@ height:355px;}
     color: #000000;
     text-transform: none;
 
+
 }
+
 .intro-small {
-width: 361px;
+  width: 361px;
+
 height: 40px;
 font-family: Roboto;
 font-size: 16px;
@@ -189,6 +212,7 @@ text-transform: none;
 
 .features-list{
   list-style: none;
+
   display:flex;
   flex-direction: row;
 justify-content: center;
@@ -209,10 +233,38 @@ justify-content: center;
 
 
 
+
+}
+
+.left{
+  margin-left:140px;
+  margin-top: 80px;
+
+
+}
+.center{
+  margin-left:540px;
+  margin-top: -320px ;
+
+
+}
+.right{
+  margin-left:940px;
+  margin-top: -320px;
+
+
+
+}
+}
+
+
 .feature-item h3 {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
+
+
+  margin: 0 auto;
 
 
 }
@@ -231,6 +283,7 @@ h3 {
   font-size: 16px;
   line-height: 24px;
   text-transform:uppercase;
+
 }
 
 .about {
@@ -248,6 +301,9 @@ margin-left: 149px;
 
 
 }
+
+}
+
 .button-order
 {display: inline-block;
 width: 160px;
