@@ -10,7 +10,7 @@
     <title></title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header-catalog">
       <div class="top-color">
       <nav class="main-navigation">
         <div class="logo"<a>
@@ -40,8 +40,9 @@
 
         <section>
     <h2></h2>
-
-    <form method="get" action="https://echo.htmlacademy.ru" oninput="daysoutput.value=dayscount.value" class="formes">
+    <div class="pictures-catalog">
+<div class="formes"
+    <form method="get" action="https://echo.htmlacademy.ru" oninput="daysoutput.value=dayscount.value">
 
 <div class="price-form">
     <fieldset>
@@ -52,9 +53,10 @@
 
     </fieldset>
 </div>
+<div class="form-filter">
       <fieldset>
         <legend class="price">Сетка:</legend>
-        <ul class="features-list">
+        <ul class="features-list-catalog">
           <li>
             <input type="radio" name="product-group" id="filter1" value="a1" checked>
             <label for="filter1" class="net"><img src="img/radio-on.svg" width="25" height="25"
@@ -72,7 +74,7 @@
       </fieldset>
       <fieldset>
         <legend class="price">Особенности:</legend>
-        <ul class="features-list">
+        <ul class="features-list-catalog">
           <li>
             <input type="checkbox" name="slider-news" id="filter-slider" value="fixed" checked>
             <label for="filter-slider" class="net">Слайдер</label>
@@ -96,35 +98,41 @@
         </ul>
       </fieldset>
                 <button type="submit" class="button5 grey-button">Показать</button>
+              </div>
     </form>
+
+  </div>
+
     <section>
-      <ul class="features-list assets">
+      <ul class="features-list-catalog assets">
       <li>
         <a href="#"><img src="img/img-sedona-jpg.jpg" width="360" height="576"
       alt="sedona"></a></li>
-<li>
+      <li>
       <a href="#">  <img src="img/img-pink-jpg.jpg" width="360" height="576"
         alt="pink"></a></li>
-<li>
+        <li>
           <a href="#"><img src="img/img-barbershop-jpg.jpg" width="360" height="576"
           alt="barbershop"></a></li>
-<li>
+        <li>
             <a href="#"><img src="img/img-mishka-jpg.jpg" width="360" height="576"
             alt="mishka"></a></li>
-<li>
+            <li>
             <a href="#"> <img src="img/img-aplus-jpg.jpg" width="360" height="576"
               alt="aplus"></a></li>
-<li>
+              <li>
               <a href="#"> <img src="img/img-kvast-jpg.jpg" width="360" height="576"
                 alt="kvast"></a></li>
-
+            </ul>
                 <ul class="features-list">
                  <li><a>1</a></li>
                  <li><a href="#">2</a></li>
                  <li><a href="#">3</a></li>
                  <li><a href="#"><button type="button" class="button-form button-next">Следующая</button></a></li>
               </ul>
+
                 </section>
+              </div>
                 <section>
                   <img src="img/2.jpg" width="1440" height="416"
                   alt="Карта">

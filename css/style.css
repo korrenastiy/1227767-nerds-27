@@ -9,6 +9,7 @@ body {
   color: #000000;
   text-transform: uppercase;
   background-color: #ffffff;
+
 }
 h1 {
   font-size: 55px;
@@ -17,8 +18,8 @@ h1 {
   text-align: center;
   font-weight:normal;
 }
-.button{
-display: inline-block;
+.button
+{display: inline-block;
 width: 240px;
 height: 50px;}
 
@@ -34,8 +35,8 @@ height: 50px;}
   background-size:240px 50px;
   border: none;}
 
-  .button5{
-  display: inline-block;
+  .button5
+  {display: inline-block;
   width: 260px;
   height: 50px;}
 
@@ -49,26 +50,17 @@ height: 50px;}
 
   }
 
-.top-color {
-  background-color: #eeeeee;
 }
 a {
   text-decoration: none;}
 
+  .iphones {
+    display:flex;
+    min-height:431px;
+    justify-content: center;
+    margin-top: 18px;
 
   }
-
-.container{
-display: flex;
-flex-direction: column;
-
-}
-.iphones-container{
-  display: flex;
-  flex-direction: column;
-  margin:132px 171px 0 571px;
-
-}
 
 .assets{
 display:flex;
@@ -78,29 +70,60 @@ justify-content: flex-end;
 margin-bottom: 170px;
 margin-top: 133px;
 margin-right:140px;
+
 }
 
 .formes {
 display:flex;
 flex-direction: column;
 flex-wrap: wrap;
+width:260px;
+}
+.price-form{
+  display: flex;
+  flex-direction: column;
+}
+.form-filter {
+  display: flex;
+  flex-direction: column;
 }
 
-
+.container{
+  dispaly:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.iphones-container{
+  dispaly:flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .main-navigation {
-  display:flex;
     font-size: 16px;
     line-height: 1.88;
     color: #000000;
     background-color: #eeeeee;
+    width:1440px;
+    display: flex;
 
   }
 
 .main-header {
 display:flex;
+flex-direction:row;
+flex-wrap: wrap;
 background-color: #eeeeee;
+height:545px;}
 
+.main-header-catalog {
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+background-color: #eeeeee;
+height:355px;}
 
+.nav-top{
+  display: flex;
 }
 .logo {
   display:flex;
@@ -108,21 +131,24 @@ background-color: #eeeeee;
   margin-left: 140px;
   margin-top:49px;
 
-
-
 }
+
   .site-navigation {
     list-style: none;
+
     display:flex;
     flex-direction: row;
     justify-content: center;
     margin-left: 202px;
-
-
+    width:799px;
+    align-items:flex-end;
   }
   .navigation {
-    margin:47px;
-    margin-top:83px;
+    margin-right:47px;
+  }
+  .last-element {
+    margin-left: 245px;
+    margin-right: 140px;
   }
   .site-navigation a {
   color:#000000;}
@@ -131,6 +157,7 @@ background-color: #eeeeee;
   .site-navigation a:focus  {
     color: #283136;
   }
+  a {text-decoration:none;}
 .intro {
   font-family: Roboto;
     font-size: 55px;
@@ -164,12 +191,21 @@ text-transform: none;
   list-style: none;
   display:flex;
   flex-direction: row;
-  align-content: space-around;
+justify-content: center;
   margin-left: 140px;
   margin-right:200px;
   margin-top: 80px;
 }
+.features-list-catalog{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
+}
+.shops{
+  margin-left: 100px;
+}
 
 
 
@@ -198,6 +234,7 @@ h3 {
 }
 
 .about {
+  width:650px;
   display:flex;
   flex-direction:column;
   margin-top: 162px;
@@ -206,6 +243,8 @@ h3 {
 .points{
 display:flex;
 flex-direction:column;
+margin-top: 162px;
+margin-left: 149px;
 
 
 }
@@ -287,6 +326,9 @@ height: 50px;}
   background-size:160px 50px;
   border: none;}
 
+.main-bottom{
+  display:flex;
+}
 
 .adress{
   font-size: 16px;
@@ -357,11 +399,17 @@ h2 {
   text-transform:uppercase;
   text-align: left;
 }
+.form-filter {
+  display: flex;
+  flex-direction: column;
+}
 .net {
   font-size: 16px;
   line-height: 20px;
   color: #283136;
   text-transform:none;
   text-align: left;
-
+}
+.pictures-catalog {
+  display: flex;
 }
